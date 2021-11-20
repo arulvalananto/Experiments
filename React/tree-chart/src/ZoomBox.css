@@ -1,0 +1,29 @@
+.tools {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  margin: 1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.3rem;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn__zoomIn {
+  color: white;
+  background: #388e3c;
+}
+.btn__zoomOut {
+  color: white;
+  background: crimson;
+}
+.btn__resetTransform {
+  background: #fbc02d;
+}
